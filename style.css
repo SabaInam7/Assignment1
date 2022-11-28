@@ -1,0 +1,32 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  table-layout: fixed; 
+  width: 88%;
+ 
+
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  margin: 5px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+  
+   left: 35%;
+  margin-left: 140px;
+ 
+}
+body{
+    margin: 19px;
+}
+p{
+    font-size: 18px;
+}

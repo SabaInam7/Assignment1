@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgb(211, 186, 176)">
+    <h1
+      style="
+        text-align: center;
+        background-color: rgb(95, 104, 104);
+        color: white;
+      "
+    >
+      GitHub Details
+    </h1>
+
+    <!-- --------------------------------------------- -->
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        What is GitHUB
+      </h2>
+      <p style="font-size: 18px; font-style: italic">
+        GitHub is a code hosting platform for collaboration and version
+        control.GitHub lets you (and others) work together on projects.
+      </p>
+      <p>
+        You can use organizations for free, with GitHub Free, which includes
+        limited features on private repositories.If you don't take the right
+        security measures with passwords and sensitive information, using GitHub
+        may become dangerous.
+      </p>
+      <img
+        src="./images/GitHUb.png"
+        alt="gitit"
+        class="image"
+        style="width: 790px; height: 290px"
+      />
+    </div>
+    <br />
+    <!------------------------------------- Git Init------------------------------------------------- -->
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        Initializing Git
+      </h2>
+      <p style="font-size: 18px">
+        The git init command creates a new Git repository. It can be used to
+        initialize a new, empty repository. Most other Git commands are not
+        available outside of an initialized repository, so this is usually the
+        first command you'll run in a new project.
+      </p>
+      <p><span style="font-weight: bold">Command:</span> git init</p>
+      <img src="./images/gitit.png" alt="gitit" class="image" />
+    </div>
+    <br />
+    <!-- -----------------------------------------Git Remote---------------------------------------- -->
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        Remote Repository
+      </h2>
+      <p style="font-size: 18px">
+        To add a new remote, use the git remote add command on the terminal, in
+        the directory your repository is stored at.
+      </p>
+
+      <ul style="font-size: 18px">
+        The git remote add command takes two arguments:
+        <li>A remote name, for example, origin</li>
+        <li>remote URL, for example, https://github.com/user/repo.gi</li>
+      </ul>
+      <p>
+        <span style="font-weight: bold">Command:</span> git remote add origin
+        URL
+      </p>
+      <img src="./images/Remote.png" alt="gitit" class="image" />
+    </div>
+    <br />
+
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+
+    <!------------------------------------------- Basic Snapshotting------------------------------------------------ -->
+
+    <!-- -----------------------------------------Git Status--------------------------------------------------- -->
+
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        Git Status
+      </h2>
+      <p style="font-size: 18px">
+        The git status command is used to show the status of the git repository.
+        This command displays the state of the local directory and the staging
+        area.
+      </p>
+
+      <p><span style="font-weight: bold">Command:</span> git status</p>
+      <img src="./images/git Status.png" alt="gitit" class="image" />
+    </div>
+    <br />
+    <!-- ------------------------------------------------Git Add----------------------------------------------- -->
+
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        Git Add
+      </h2>
+      <p style="font-size: 18px">
+        The git add command adds a change in the working directory to the
+        staging area. It tells Git that you want to include updates to a
+        particular file in the next commit. However, git add doesn't really
+        affect the repository in any significant way—changes are not actually
+        recorded until you run git commit
+      </p>
+
+      <ul style="font-size: 18px">
+        The git add command takes one argument:
+        <li>
+          git add filename <br />
+          This adds specific file to Staging Area.
+        </li>
+        <li>git add .<br />This adds all untracked files to Staging Area.</li>
+      </ul>
+
+      <img src="./images/git Add.png" alt="gitit" class="image" />
+    </div>
+    <br />
+    <!-- ------------------------------------------------Git Commit----------------------------------------------- -->
+
+    <div style="margin: 20px">
+      <h2
+        style="
+          background-color: rgb(12, 3, 39);
+          color: white;
+          width: max-content;
+        "
+      >
+        Git Commit
+      </h2>
+      <p style="font-size: 18px">
+        The "commit" command is used to save your changes to the local
+        repository. Note that you have to explicitly tell Git which changes you
+        want to include in a commit before running the "git commit" command.
+        This means that a file won't be automatically included in the next
+        commit just because it was changed. It also includes a message for
+        readability to remember purpose of that Commit.
+      </p>
+      <p>
+        <span style="font-weight: bold">Command:</span> git commit -m "message"
+      </p>
+      <br />
+      <img src="./images/git Add.png" alt="gitit" class="image" />
+    </div>
+
+    <br />
+    <br />
+  </body>
+</html>
